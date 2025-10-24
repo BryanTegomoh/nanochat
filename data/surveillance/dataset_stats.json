@@ -1,0 +1,19 @@
+{
+  "total_examples": 5000,
+  "train_size": 4000,
+  "val_size": 500,
+  "test_size": 500,
+  "generated_date": "2025-10-23T16:21:14.513560",
+  "categories": {
+    "outbreak_detection": "Questions about detecting disease outbreaks",
+    "trend_analysis": "Analyzing epidemiological trends",
+    "risk_assessment": "Public health risk assessments",
+    "surveillance_report": "Creating surveillance reports",
+    "vaccination_coverage": "Vaccination program surveillance",
+    "data_interpretation": "Interpreting surveillance data and metrics",
+    "syndromic_surveillance": "Syndromic surveillance systems",
+    "contact_tracing": "Contact tracing protocols",
+    "zoonotic_surveillance": "Animal-human disease surveillance",
+    "global_surveillance": "International surveillance coordination"
+  }
+}
