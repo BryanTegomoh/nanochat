@@ -3,8 +3,17 @@ Interactive surveillance chatbot using the fine-tuned surveillance model.
 Specialized for public health surveillance queries.
 **CPU-compatible version**
 
+IMPORTANT: Must be run from the repository root using -m flag:
+
 Usage:
-python -m scripts.surveillance_chat_cpu --model_tag d26-surveillance
+    cd /path/to/nanochat
+    python -m scripts.surveillance_chat_cpu --source mid
+
+    # With trained surveillance model:
+    python -m scripts.surveillance_chat_cpu --source sft --model_tag d26-surveillance
+
+DO NOT run directly with: python scripts/surveillance_chat_cpu.py
+This will cause import errors.
 """
 
 import argparse
